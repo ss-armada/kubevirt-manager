@@ -1,1 +1,28 @@
+.demo {
+    /* custom */
+    color: #ACADAD;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    /* margin-left: -250px; */
+}
 
+.background-armada {
+    background: var(--defaults-surface-backdrop, #01141A);
+    margin-left: -250px;
+}
+
+.vmlist-text {
+    color: #ACADAD;
+}
+
+.vmlist-name {
+    color: white;
+}
+
+.custom-table-row {
+    border-bottom: 1px solid #444; /* Adjust color and thickness as needed */
+    border-top: 1px solid #444;
+  }
