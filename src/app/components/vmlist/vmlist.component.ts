@@ -32,7 +32,7 @@ export class VmlistComponent implements OnInit {
     networkCheck: boolean = false;
     firewallLabels: FirewallLabels = new FirewallLabels;
 
-    myInterval = setInterval(() =>{ this.reloadComponent(); }, 30000);
+    myInterval = setInterval(() =>{ this.reloadComponent(); }, 60000);
 
     constructor(
         private cdRef: ChangeDetectorRef,
